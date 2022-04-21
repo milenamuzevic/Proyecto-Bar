@@ -14,6 +14,7 @@ import { NosotrosComponent } from './vistas/nosotros/nosotros.component';
 import { AgendaComponent } from './vistas/agenda/agenda.component';
 import { ContactoComponent } from './vistas/contacto/contacto.component';
 import { CalendarioComponent } from './calendario/calendario.component';
+import { ComprarComponent } from './vistas/comprar/comprar.component';
 
 FullCalendarModule.registerPlugins([ // register FullCalendar plugins
   dayGridPlugin,
@@ -30,7 +31,8 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     NosotrosComponent,
     AgendaComponent,
     ContactoComponent,
-    CalendarioComponent
+    CalendarioComponent,
+    ComprarComponent
   ],
   imports: [
     BrowserModule,
